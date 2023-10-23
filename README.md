@@ -3,8 +3,8 @@ Techniques to read in and align IRIS, SDO, and Solar Orbiter/EUI data in Python.
 
 ## Aligning Solar Orbiter/EUI 174 data with AIA 171
 ### Initial datasets
-- Use [SOAR](https://github.com/sunpy/sunpy-soar) to pull HRIEUV174 data and create an array of SunPy maps.
-- Use AIA 171 data downloaded from [JSOC](http://jsoc.stanford.edu/ajax/lookdata.html?ds=aia.lev1_euv_12s) and create array of SunPy maps.
+- `get_eui_data()`: using [SOAR](https://github.com/sunpy/sunpy-soar) to pull HRIEUV174 data and create an array of SunPy maps.
+- `get_aia_data()`: using AIA 171 data downloaded from [JSOC](http://jsoc.stanford.edu/ajax/lookdata.html?ds=aia.lev1_euv_12s) and create array of SunPy maps.
 
 ### Matching EUI and AIA in time
 - Sort the EUI data by time.
